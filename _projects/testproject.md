@@ -3,4 +3,4 @@ title: Test Project
 ---
 ## This is a test project
 
-Just another test
+Just a tester

@@ -1,4 +1,3 @@
-remote_theme: murphelyria/slate
 title: Murph Elyria
 description: Composer, Producer, Creative
 
@@ -9,7 +8,14 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
 
 collections:
   projects:
     output: true
+    layout: "default"
