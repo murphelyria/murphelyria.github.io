@@ -1,0 +1,7 @@
+# Changing the fonts used:
+
+Fonts are defined in the CSS for the site, which is generated from the _sass files (which is a templated version of css)
+
+1. Select *all* of the fonts you want to use in the site in Google Fonts
+2. Copy the URL into the "@import url(...)" line at the top of the _sass/_main.scss file
+3. Edit the $family-sans-serif: '...', ...; line to mimic what Google fonts shows for the "CSS rules" bit
