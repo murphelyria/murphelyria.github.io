@@ -9,4 +9,4 @@ date: July 2018
 
 Working with two pianists over the course of the 2018-19 school year at San Francisco Conservatory of Music’s Pre-College program, these two pieces were written as final projects for each semester. 
 
-<iframe style="border: 0; width: 350px; height: 208px;" src="https://bandcamp.com/EmbeddedPlayer/album=2728836515/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://murphelyria.bandcamp.com/album/sfcm-pieces">SFCM Pieces by Murph Elyria</a></iframe>
+<iframe style="border: 0; width: 100%; height: 208px;" src="https://bandcamp.com/EmbeddedPlayer/album=2728836515/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://murphelyria.bandcamp.com/album/sfcm-pieces">SFCM Pieces by Murph Elyria</a></iframe>
