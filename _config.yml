@@ -1,5 +1,52 @@
+# Site Settings
 title: Murph Elyria
-description: Composer, Producer, Creative
+tagline: Composer, Producer, Creative
+email: contact@murphelyria.com
+description: >
+  Murph Elyria's Website
+baseurl: ""
+url: "https://www.murphelyria.com"
+permalink: pretty
+favicon: /favicon.png
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+fixed_navbar: top
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: csrhymes
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
 
 defaults:
   -
@@ -7,15 +54,30 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      show_sidebar: true
   -
     scope:
       path: ""
-      type: "projects"
+      type: "posts"
     values:
-      layout: "default"
+      author: "Murph Elyira"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+#footer_menu: example_footer_menu
 
 collections:
   projects:
     output: true
-    layout: "default"
+    layout: project
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  music:
+    output: true
+    layout: music
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false

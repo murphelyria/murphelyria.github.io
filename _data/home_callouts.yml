@@ -1,0 +1,14 @@
+style: is-light
+items:
+  - title: Projects
+    subtitle: Creative projects
+    icon: fa-icons
+    call_to_action_link: /projects
+  - title: Music
+    subtitle: Original compositions
+    icon: fa-music
+    call_to_action_link: /music
+  - title: Contact
+    subtitle: Reach out
+    icon: fa-highlighter
+    call_to_action_link: /contact
