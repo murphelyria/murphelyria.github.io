@@ -4,7 +4,7 @@ subtitle: Works for 2 Pianos
 description: Two pieces written during SFCM's Pre-College Program in the 2018-19 school year
 layout: music
 image: /assets/img/SFCM-Pieces.png
-date: June 2019
+date: May 2019
 ---
 
 Working with two pianists over the course of the 2018-19 school year at San Francisco Conservatory of Music’s Pre-College program, these two pieces were written as final projects for each semester. 
