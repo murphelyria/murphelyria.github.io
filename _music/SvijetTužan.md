@@ -5,7 +5,7 @@ description: Solo Violin Piece for SFCM Kris Getz Competition
 project_code: 248fyqf
 layout: music
 image: /assets/img/Svijet-Tužan.png
-date: November 2020
+date: May 2020
 ---
 
 Written during the middle of the coronavirus pandemic, this solo violin piece was written as a submission for the Kris Getz Competition with San Francisco Conservatory of Music’s Pre-College Program, winning second place. 
