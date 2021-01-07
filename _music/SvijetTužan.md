@@ -4,7 +4,7 @@ subtitle: Solo Violin (MIDI Demo)
 description: Solo Violin Piece for SFCM Kris Getz Competition
 project_code: 248fyqf
 layout: music
-image: assets/img/Svijet-Tužan.png
+image: /assets/img/Svijet-Tužan.png
 date: November 2020
 ---
 
