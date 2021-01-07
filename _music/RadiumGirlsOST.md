@@ -4,7 +4,7 @@ subtitle: Unofficial Soundtrack
 description: Unofficial soundtrack written to the play Radium Girls by D.W. Gregory
 layout: music
 image: /assets/img/coverart.jpg
-date: November 2020
+date: November 2019
 ---
 
 An unofficial score to the play Radium Girls by D.W. Gregory, this album was written working with the director, adding transition music, character themes, and an original dream ballet. All pieces in the published album were recorded to be played and adjusted in accordance to the performers onstage.
