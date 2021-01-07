@@ -7,4 +7,4 @@ show_sidebar: false
 
 # Contact Form Goes Here
 
-Follow the instructions at [this page](https://scratchtheweb.com/setup-contact-form-google-forms/) to provide a contact form to embed here.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDsNNHAgsCA2nYjUXTuWVXpqwkCWRR-3GNktGpYs6UrDLhRA/viewform?embedded=true" width="640" height="860" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
