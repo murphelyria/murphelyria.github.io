@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html {% if site.fixed_navbar %} class="has-navbar-fixed-{{ site.fixed_navbar }}" {% endif %}>
   {% include head.html %}
+  {% unless page.hide_header %}
   <body>
     {% include header.html %}
     {% unless page.hide_hero %}
