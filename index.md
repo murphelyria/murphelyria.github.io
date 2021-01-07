@@ -9,5 +9,6 @@ hero_height: is-fullheight
 show_sidebar: false
 hide_footer: true
 hide_content: true
+hide_header: true
 menubar: false
 ---
