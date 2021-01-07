@@ -2,7 +2,7 @@
 title: Svijet Tužan
 subtitle: Solo Violin (MIDI Demo)
 layout: music
-image: https://via.placeholder.com/640x480
+image: assets/img/Svijet Tužan.png
 date: November 2020
 ---
 
