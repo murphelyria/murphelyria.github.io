@@ -4,6 +4,7 @@ title: About
 subtitle: Murph Elyria
 toc: false
 #toc_title: Custom Title
+hero_image: /assets/img/hugo-delauney-hFTjgG-3214-unsplash.jpg
 show_sidebar: false
 ---
 
