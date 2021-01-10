@@ -6,5 +6,3 @@ hero_image: /assets/img/dan-dennis-GyLl2YD7g54-unsplash.jpg
 show_sidebar: false
 sort: date
 ---
-
-All the music goes here.
