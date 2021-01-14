@@ -7,4 +7,4 @@ show_sidebar: false
 sort: date
 ---
 
-This is an example projects page you can use to display a simple listing of your projects.
+In the process of updating this page, apologies for the placeholder information, acquiring all the necessary information is taking longer than expected.
