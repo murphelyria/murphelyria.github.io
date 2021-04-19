@@ -7,7 +7,7 @@ image: /assets/img/pexels-ylanite-koppens-934067.jpg
 date: April 2021
 ---
 
-This is a folder containing all the scores I am currently self publishing. You are free to download these, perform these, write your own arrangements, as long as you credit me as the original creator of these compositions and scores, and link back to this page for others to find the original scores. The best way I figured out how to do this is to make a public Google Drive folder, which you can find <a rel=scores href="https://drive.google.com/drive/folders/1-3yXO3mSqa0DzW_NaBoHz2C7WbuK0_zF?usp=sharing">here</a>.
+This is a folder containing all the scores I am currently self publishing. You are free to download these, perform these, write your own arrangements, as long as you credit me as the original creator of these compositions and scores, and link back to this page for others to find the original scores. The best way I figured out how to do this is to make a public Google Drive folder, which you can find by <a rel=scores href="https://drive.google.com/drive/folders/1-3yXO3mSqa0DzW_NaBoHz2C7WbuK0_zF?usp=sharing">clicking here</a>.
 
 **Legal**
 
