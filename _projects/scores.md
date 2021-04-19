@@ -13,9 +13,9 @@ This is a folder containing all the scores I am currently self publishing. You a
 
 Please do not steal, please credit me when using this in any format. All music in this folder is my original material.
 
-To credit, please include this text as written, adjusting only for the title of the specific work used, as indicated by the square brackets:
-[Title of Work] by Murph Elyria
-Link: www.murphelyria.com/projects/scores/
+To credit, please include this text as written, adjusting only for the title of the specific work used, as indicated by the square brackets:<br />
+[Title of Work] by Murph Elyria<br />
+Link: www.murphelyria.com/projects/scores/<br />
 License: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />The works in this Google Drive Folder are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
