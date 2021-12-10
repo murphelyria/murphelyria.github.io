@@ -1,6 +1,6 @@
 ---
 title: Murph Elyria
-subtitle: Composer + Producer + Creative
+subtitle: Composer || Sound Designer || Creative
 layout: cover
 #callouts: home_callouts
 hero_image: /assets/img/maximalfocus-VT4rx775FT4-unsplash.jpg
