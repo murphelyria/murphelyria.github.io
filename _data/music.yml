@@ -1,0 +1,32 @@
+#- name: TITLE
+#  link: BANDCAMP_LINK
+#  image: /assets/images/MusicCoverArt/{COVERART.SOMETHING}
+#  description: DESCRIPTION WRITTEN HERE
+- name: The Max Project EP
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link: https://murphelyria.bandcamp.com/album/the-max-project-ep?from=embed
+  description: This is a collection of some compositions I made with Max/MSP patches for one of my classes this semester. I don’t really have a reason to publish these other than the fact that I find them interesting.
+- name: Svijet Tužan
+  link: https://murphelyria.bandcamp.com/track/svijet-tu-an-midi-demo?from=embed
+  image: /assets/images/MusicCoverArt/Svijet-Tužan.png
+  description: Written during the middle of the coronavirus pandemic, this solo violin piece was written as a submission for the Kris Getz Competition with San Francisco Conservatory of Music’s Pre-College Program, winning second place.
+- name: Radium Girls OST
+  link: https://murphelyria.bandcamp.com/album/radium-girls-unofficial-ost?from=embed
+  image: /assets/images/MusicCoverArt/RadiumGirlsOST.jpg
+  description: An unofficial score to the play Radium Girls by D.W. Gregory, this album was written working with the director, adding transition music, character themes, and an original dream ballet. All pieces in the published album were recorded to be played and adjusted in accordance to the performers onstage.
+- name: Boston HSCI 2019 Compositions
+  link: https://murphelyria.bandcamp.com/album/boston-hsci-2019-compositions?from=embed
+  image: /assets/images/MusicCoverArt/Boston-HSCI-2019-Compositions.png
+  description: These three pieces were written as part of Boston Conservatory’s High School Composition Intensive, Murph’s second time attending. The pieces were written for solo piano, woodwind trio, and string quartet respectively.
+- name: SFCM Pieces
+  link: https://murphelyria.bandcamp.com/album/sfcm-pieces?from=embed
+  image: /assets/images/MusicCoverArt/SFCM-Pieces.png
+  description: Working with two pianists over the course of the 2018-19 school year at San Francisco Conservatory of Music’s Pre-College program, these two pieces were written as final projects for each semester.
+- name: Boston HSCI 2018 Compositions
+  link: https://murphelyria.bandcamp.com/album/boston-hsci-2018-compositions?from=embed
+  image: /assets/images/MusicCoverArt/Boston-HSCI-2018-Compositions.png
+  description: Written for solo piano, woodwind trio, and string quartet respectively, these pieces were composed during Boston Conservatory’s High School Composition Intensive, Murph’s first time attending.
+- name: Miscellaneous Works
+  link: https://murphelyria.bandcamp.com/album/miscellaneous-works?from=embed
+  image: /assets/images/MusicCoverArt/MISCELLANEOUS-WORKS.png
+  description: This compilation album is a collection of singles released by Murph on their previous website. The compositions range from 2014 to 2019, and were released at varying levels of completion, from demos to finalised.
