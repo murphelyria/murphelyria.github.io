@@ -56,21 +56,3 @@ Find the `<!-- Voice Over Section -->` in `index.html`. Replace the YouTube embe
 ```
 https://www.youtube.com/embed/YOUR_VIDEO_ID
 ```
-
----
-
-## Deploying to GitHub Pages
-
-1. Push all files to the root of your `murphelyria.github.io` repository (or whichever repo is configured for Pages).
-2. In repo Settings > Pages, set Source to `Deploy from a branch`, branch `main`, folder `/root`.
-3. The `CNAME` file handles the `murphelyria.com` domain automatically.
-
-No build step required. Changes go live within ~30 seconds of pushing.
-
----
-
-## Assets to carry over from the original repo
-
-Copy the entire `assets/images/` folder from your old repository. The new site references the same paths:
-- `assets/images/MusicCoverArt/`
-- `assets/images/BlogPhotos/`
