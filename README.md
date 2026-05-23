@@ -2,8 +2,6 @@
 
 Personal portfolio site for Murph Elyria — composer, sound designer, voice actor.
 
-Plain HTML/CSS/JS. No build step. Deploy directly to GitHub Pages.
-
 ---
 
 ## File Structure
