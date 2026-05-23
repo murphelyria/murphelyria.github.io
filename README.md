@@ -1,53 +1,78 @@
-# WhatATheme
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
+# murphelyria.com
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+Personal portfolio site for Murph Elyria — composer, sound designer, voice actor.
 
-![WhatATheme](assets/images/meta.jpg)
-
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
-
-# Installation :books:
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
-### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
-* Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
-
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
-
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
+Plain HTML/CSS/JS. No build step. Deploy directly to GitHub Pages.
 
 ---
 
-### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
-* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
-* [Font Awesome](https://fontawesome.com/)
-* [Poppins Font](https://fonts.google.com/specimen/Poppins)
-* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
+## File Structure
+
+```
+index.html          Main portfolio page (Hero, Music, Voice, Contact)
+blog.html           Blog post listing
+blog/
+  hello-world.html  Post template / existing post
+  ive-graduated.html  Existing post
+assets/
+  css/style.css     All styles
+  js/main.js        All JavaScript
+  images/           Your image assets (copy from original repo)
+CNAME               Custom domain config
+404.html            Custom 404 page
+```
 
 ---
 
-### Credits :bulb:
-* [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)
+## Updating the Site
 
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+### Edit the homepage
+
+Open `index.html` in any text editor. All sections are clearly labelled with HTML comments.
+
+### Add a new music album
+
+Find the `<!-- Music Section -->` block in `index.html`. Copy an existing `.music-card` block and update:
+- `href` — Bandcamp album URL
+- `src` on the `<img>` — path to cover art in `assets/images/MusicCoverArt/`
+- `alt` — descriptive text for accessibility
+- `.music-card-title` — album name
+- `.music-card-desc` — short description
+
+Add the image to `assets/images/MusicCoverArt/`.
+
+### Add a new blog post
+
+1. Duplicate `blog/hello-world.html` and rename it (use lowercase, hyphens, no spaces — e.g. `blog/new-project.html`).
+2. Update the `<title>`, `<meta name="description">`, date, category, and heading.
+3. Replace the body paragraphs with your content.
+4. Open `blog.html` and add a new `.blog-item` block at the top of the list (newest first). Update the number, date, title, and excerpt.
+
+### Update contact/social links
+
+Search `index.html` for `contact-socials` and update the `href` values.
+
+### Add a new VO reel
+
+Find the `<!-- Voice Over Section -->` in `index.html`. Replace the YouTube embed `src` URL with the new video's embed URL:
+```
+https://www.youtube.com/embed/YOUR_VIDEO_ID
+```
+
+---
+
+## Deploying to GitHub Pages
+
+1. Push all files to the root of your `murphelyria.github.io` repository (or whichever repo is configured for Pages).
+2. In repo Settings > Pages, set Source to `Deploy from a branch`, branch `main`, folder `/root`.
+3. The `CNAME` file handles the `murphelyria.com` domain automatically.
+
+No build step required. Changes go live within ~30 seconds of pushing.
+
+---
+
+## Assets to carry over from the original repo
+
+Copy the entire `assets/images/` folder from your old repository. The new site references the same paths:
+- `assets/images/MusicCoverArt/`
+- `assets/images/BlogPhotos/`

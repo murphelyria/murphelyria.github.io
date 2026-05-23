@@ -1,5 +1,0 @@
----
-layout: music
-title: Music
----
-
