@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Murph Elyria</title>
+  <meta name="description" content="Writing from Murph Elyria — composer, sound designer, and voice actor based in Los Angeles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Murph Elyria home">ME</a>
+    <ul class="nav-links" id="nav-menu">
+      <li><a href="index.html#music">Music</a></li>
+      <li><a href="index.html#voice">Voice</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <header class="blog-hero">
+    <p class="section-label reveal">Writing</p>
+    <h1 class="reveal">BLOG</h1>
+  </header>
+
+  <main class="blog-list">
+
+    <!-- Post 2: I've Graduated -->
+    <a class="blog-item reveal" href="blog/ive-graduated.html">
+      <span class="blog-item-num">02</span>
+      <div>
+        <p class="blog-item-meta">May 18, 2024 &nbsp;&middot;&nbsp; Life Update</p>
+        <h2 class="blog-item-title">I've Graduated!</h2>
+        <p class="blog-item-excerpt">
+          Four years, a BFA from CalArts, and a whole range of experiences in between.
+          What the degree means, what comes next, and what's on the horizon.
+        </p>
+      </div>
+    </a>
+
+    <!-- Post 1: Hello World -->
+    <a class="blog-item reveal" href="blog/hello-world.html">
+      <span class="blog-item-num">01</span>
+      <div>
+        <p class="blog-item-meta">May 7, 2024 &nbsp;&middot;&nbsp; General</p>
+        <h2 class="blog-item-title">Hello, World.</h2>
+        <p class="blog-item-excerpt">
+          The first post on a new site. A quick introduction to who this is for,
+          what you can expect, and how this whole thing got started.
+        </p>
+      </div>
+    </a>
+
+    <!--
+      TO ADD A NEW POST:
+      1. Duplicate one of the files in /blog/ and rename it.
+      2. Update the content inside the new file.
+      3. Add a new .blog-item block above, updating the number, date, title, and excerpt.
+      Keep posts in reverse chronological order (newest first).
+    -->
+
+  </main>
+
+  <footer>
+    <p class="footer-copy">&copy; 2025 Murph Elyria. All rights reserved.</p>
+    <p class="footer-name">ME</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
