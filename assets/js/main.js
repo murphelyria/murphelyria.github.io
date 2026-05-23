@@ -102,3 +102,16 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+/* ─── Cursor: hide over iframes ─────────────────────── */
+document.querySelectorAll('.reel-reelcrafter, .reel-video, .vo-video').forEach(wrap => {
+  wrap.addEventListener('mouseenter', () => {
+    cursor.classList.remove('visible');
+    cursorRing.classList.remove('visible');
+  });
+
+  wrap.addEventListener('mouseleave', () => {
+    cursor.classList.add('visible');
+    cursorRing.classList.add('visible');
+  });
+});
