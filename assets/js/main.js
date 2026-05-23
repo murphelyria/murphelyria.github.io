@@ -4,8 +4,10 @@ const cursorRing = document.querySelector('.cursor-ring');
 
 let mouseX = -100, mouseY = -100;
 let ringX  = -100, ringY  = -100;
+let overIframe = false;
 
 document.addEventListener('mousemove', e => {
+  if (overIframe) return;
   mouseX = e.clientX;
   mouseY = e.clientY;
   cursor.style.left = mouseX + 'px';
@@ -35,6 +37,19 @@ document.querySelectorAll('a, button, .music-card').forEach(el => {
   el.addEventListener('mouseleave', () => {
     cursor.classList.remove('active');
     cursorRing.classList.remove('active');
+  });
+});
+
+/* ─── Cursor: hide over iframes ─────────────────── */
+document.querySelectorAll('.reel-reelcrafter, .reel-video, .vo-video').forEach(wrap => {
+  wrap.addEventListener('mouseenter', () => {
+    overIframe = true;
+    cursor.classList.remove('visible');
+    cursorRing.classList.remove('visible');
+  });
+
+  wrap.addEventListener('mouseleave', () => {
+    overIframe = false;
   });
 });
 
@@ -100,18 +115,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (!target) return;
     e.preventDefault();
     target.scrollIntoView({ behavior: 'smooth' });
-  });
-});
-
-/* ─── Cursor: hide over iframes ─────────────────────── */
-document.querySelectorAll('.reel-reelcrafter, .reel-video, .vo-video').forEach(wrap => {
-  wrap.addEventListener('mouseenter', () => {
-    cursor.classList.remove('visible');
-    cursorRing.classList.remove('visible');
-  });
-
-  wrap.addEventListener('mouseleave', () => {
-    cursor.classList.add('visible');
-    cursorRing.classList.add('visible');
   });
 });
